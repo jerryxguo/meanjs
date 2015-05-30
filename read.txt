@@ -1,0 +1,320 @@
+[4mRunning "jshint:all" (jshint) task[24m
+[32m>> [39m58 files lint free.
+
+[4mRunning "csslint:all" (csslint) task[24m
+Linting public/modules/core/css/base.css...[31mERROR[39m
+[L12:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L18:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L24:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L127:C3]
+WARNING: Background image '../img/misc/tree.png' was used multiple times, first declared at line 121, col 3. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L166:C66]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+Linting public/modules/core/css/global.css...[31mERROR[39m
+[L2:C1]
+WARNING: Outlines should only be modified using :focus. Use of outline: none or outline: 0 should be limited to :focus rules. (outline-none) Browsers: All
+[L9:C2]
+WARNING: The property -ms-text-size-adjust is compatible with -webkit-text-size-adjust and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L80:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L80:C2]
+WARNING: Duplicate property '_position' found. Duplicate properties must appear one after the other. (duplicate-properties) Browsers: All
+[L81:C32]
+[31m>> [39mERROR: Expected RBRACE at line 81, col 32. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L81:C2]
+WARNING: Duplicate property '_left' found. Duplicate properties must appear one after the other. (duplicate-properties) Browsers: All
+[L81:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L82:C31]
+[31m>> [39mERROR: Expected RBRACE at line 82, col 31. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L82:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L82:C2]
+WARNING: Duplicate property '_top' found. Duplicate properties must appear one after the other. (duplicate-properties) Browsers: All
+[L93:C2]
+WARNING: display:inline has no effect on floated elements (but may be used to fix the IE6 double-margin bug). Certain properties shouldn't be used with certain display property values. (display-property-grouping) Browsers: All
+[L94:C2]
+WARNING: margin can't be used with display: inline. Certain properties shouldn't be used with certain display property values. (display-property-grouping) Browsers: All
+[L95:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L96:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L109:C2]
+WARNING: Fallback border-left (hex or RGB) should precede RGBA border-left. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L112:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L118:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L134:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L135:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L189:C2]
+WARNING: Fallback border-left (hex or RGB) should precede RGBA border-left. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L199:C1]
+WARNING: Missing vendor-prefixed CSS gradients for Old Webkit (Safari 4+, Chrome). When using a vendor-prefixed gradient, make sure to use them all. (gradients) Browsers: All
+[L211:C1]
+WARNING: Missing vendor-prefixed CSS gradients for Old Webkit (Safari 4+, Chrome). When using a vendor-prefixed gradient, make sure to use them all. (gradients) Browsers: All
+[L289:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L297:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L305:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L313:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L321:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L329:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L337:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L345:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L424:C1]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L465:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L513:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L523:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L541:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L545:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L549:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L553:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L575:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L592:C2]
+WARNING: Background image 'images/border-subnav.gif' was used multiple times, first declared at line 450, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L598:C1]
+WARNING: The properties padding-top, padding-bottom, padding-left, padding-right can be replaced by padding. Use shorthand properties where possible. (shorthand) Browsers: All
+[L693:C2]
+WARNING: Duplicate property '_position' found. Duplicate properties must appear one after the other. (duplicate-properties) Browsers: All
+[L693:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L694:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L694:C32]
+[31m>> [39mERROR: Expected RBRACE at line 694, col 32. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L695:C2]
+WARNING: Duplicate property '_top' found. Duplicate properties must appear one after the other. (duplicate-properties) Browsers: All
+[L695:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L695:C31]
+[31m>> [39mERROR: Expected RBRACE at line 695, col 31. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L744:C2]
+WARNING: Fallback background-color (hex or RGB) should precede RGBA background-color. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L838:C2]
+WARNING: Fallback border-right (hex or RGB) should precede RGBA border-right. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L923:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L928:C1]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L967:C33]
+[31m>> [39mERROR: Expected RBRACE at line 967, col 33. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L997:C2]
+WARNING: Fallback background (hex or RGB) should precede RGBA background. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L1136:C2]
+WARNING: display:inline has no effect on floated elements (but may be used to fix the IE6 double-margin bug). Certain properties shouldn't be used with certain display property values. (display-property-grouping) Browsers: All
+[L1139:C2]
+WARNING: margin-top can't be used with display: inline. Certain properties shouldn't be used with certain display property values. (display-property-grouping) Browsers: All
+[L1143:C2]
+WARNING: display:inline has no effect on floated elements (but may be used to fix the IE6 double-margin bug). Certain properties shouldn't be used with certain display property values. (display-property-grouping) Browsers: All
+[L1163:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1168:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1171:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1176:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1179:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1184:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1187:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1192:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1211:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1211:C32]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1215:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1215:C48]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1218:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1218:C45]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1218:C92]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1222:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1226:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1229:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1232:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1272:C2]
+WARNING: The property -moz-appearance is compatible with -webkit-appearance and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L1277:C2]
+WARNING: Fallback background (hex or RGB) should precede RGBA background. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L1323:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1326:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1349:C44]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1349:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1403:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L1404:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L1419:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L1420:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L1465:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1466:C5]
+WARNING: Fallback border (hex or RGB) should precede RGBA border. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L1478:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1492:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1500:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1501:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1502:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1504:C10]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1505:C11]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1509:C2]
+WARNING: Background image 'images/bg-overlay.png' was used multiple times, first declared at line 996, col 2. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+[L1536:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+Linting public/modules/core/css/home.css...[31mERROR[39m
+[L74:C2]
+WARNING: display:inline has no effect on floated elements (but may be used to fix the IE6 double-margin bug). Certain properties shouldn't be used with certain display property values. (display-property-grouping) Browsers: All
+[L76:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L216:C2]
+WARNING: Property with underscore prefix found. Checks for the underscore property hack (targets IE6) (underscore-property-hack) Browsers: All
+[L322:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L331:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L341:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L350:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L359:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L368:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L380:C2]
+WARNING: Property with star prefix found. Checks for the star property hack (targets IE6/7) (star-property-hack) Browsers: All
+[L480:C2]
+WARNING: Fallback background (hex or RGB) should precede RGBA background. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L528:C12]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L646:C1]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L960:C1]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L969:C1]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L1012:C23]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1015:C23]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1018:C23]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1021:C23]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1145:C24]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1149:C24]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1216:C2]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L1251:C2]
+WARNING: Rule is empty. Rules without any properties specified should be removed. (empty-rules) Browsers: All
+[L1387:C13]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1397:C71]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[L1397:C94]
+WARNING: Duplicate property 'position' found. Duplicate properties must appear one after the other. (duplicate-properties) Browsers: All
+[L1407:C200]
+WARNING: Fallback background (hex or RGB) should precede RGBA background. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L1409:C206]
+WARNING: Fallback background (hex or RGB) should precede RGBA background. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L1437:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1438:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1438:C73]
+WARNING: Fallback background (hex or RGB) should precede RGBA background. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+[L1439:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L1439:C53]
+WARNING: The property -moz-transform is compatible with -webkit-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L1439:C53]
+WARNING: The property -ms-transform is compatible with -webkit-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L1439:C53]
+WARNING: The property -o-transform is compatible with -webkit-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L1440:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+Linting public/modules/core/css/pc.css...[31mERROR[39m
+[L106:C2]
+WARNING: Outlines should only be modified using :focus. Use of outline: none or outline: 0 should be limited to :focus rules. (outline-none) Browsers: All
+[L120:C3]
+WARNING: The property -moz-appearance is compatible with -webkit-appearance and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L256:C2]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L259:C2]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L291:C3]
+WARNING: Fallback background-color (hex or RGB) should precede RGBA background-color. For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color. (fallback-colors) Browsers: IE6,IE7,IE8
+Linting public/modules/core/css/theme.css...[31mERROR[39m
+[L166:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+Linting public/modules/core/css/tool.css...[31mERROR[39m
+[L24:C3]
+WARNING: Background image '../images/status-active.gif' was used multiple times, first declared at line 18, col 3. Every background-image should be unique. Use a common class for e.g. sprites. (duplicate-background-images) Browsers: All
+Linting public/modules/core/css/user.css...[31mERROR[39m
+[L1:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L4:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L7:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L8:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L11:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L20:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L23:C1]
+WARNING: Don't use IDs in selectors. Selectors should not contain IDs. (ids) Browsers: All
+[L50:C10]
+WARNING: Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units) Browsers: All
+[33mWarning: Task "csslint:all" failed. [4mUsed --force, continuing.[24m[39m
+
+[31mDone, but with warnings.[39m

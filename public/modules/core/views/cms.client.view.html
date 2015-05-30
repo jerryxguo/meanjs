@@ -1,0 +1,57 @@
+<section data-ng-controller="HomeController">
+<div>
+    <table class="table">
+        <tr>
+            <th>Menu
+            </th>
+            <th>CSS
+            </th>
+            <th>Action
+            </th>
+        </tr>
+        <tr ng-repeat="menu in menus">
+            <td>{{menu.caption}}
+            </td>
+            <td>{{menu.CSS}}
+            </td>            
+            <td>
+            <input type="button" value="Remove" class="btn btn-primary" ng-click="removeRow(menu.caption)"/>
+            </td>
+        </tr>
+    </table>
+
+    <form ng-submit="addRow()">
+        <input type="text" placeholder="Meetup name" ng-model="meetupName">
+        <button type="submit">Add</button>
+    </form>
+    <form class="form-horizontal" role="form" ng-submit="addRow()">
+							<div class="form-group">
+								<label class="col-md-2 control-label">Name</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" name="name"
+										ng-model="name" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-2 control-label">Employees</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" name="employees"
+										ng-model="employees" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-2 control-label">Headoffice</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" name="headoffice"
+										ng-model="headoffice" />
+								</div>
+							</div>
+							<div class="form-group">								
+								<div style="padding-left:110px">
+									<input type="submit" value="Submit" class="btn btn-primary"/>
+								</div>
+							</div>
+						</form>
+
+</div>
+</section>

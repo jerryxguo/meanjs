@@ -1,0 +1,640 @@
+<section data-ng-controller="HomeController">
+<div>
+<div>
+     <nav class="site-nav clearfix" ng-mouseover="hoverControl()">      
+     
+        <ul class="nav-ul" >
+            <li class="nav-li nav-home-li" ng-repeat="x	in menus">
+                <a href='/' class="nav-a {{x.css}}" style="z-index: 90;" >{{x.caption}}<em class="nav-arrow"></em></a>            
+            </li>
+            <li class="nav-li nav-home-li" ><a href='/' class="nav-a nav-home" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','首页','nav']);">首页</a></li>
+            <li class="nav-li nav-home-li" ><a href='/about' class="nav-a nav-about" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','关于澳大利亚','nav']);">关于澳大利亚<em class="nav-arrow"></em></a></li>
+            <li class="nav-li nav-home-li" ><a href='/destination' class="nav-a nav-destination" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','目的地','nav']);">目的地<em class="nav-arrow"></em></a></li>
+            <li class="nav-li nav-home-li" ><a href='/explore' class="nav-a nav-explore" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','探索之旅','nav']);">探索之旅<em class="nav-arrow"></em></a></li>
+            <li class="nav-li nav-home-li" ><a href='/plan' class="nav-a nav-plan" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','计划行程','nav']);">计划行程<em class="nav-arrow"></em></a></li>
+            <li class="nav-li nav-home-li" ><a href='/campaigns' class="nav-a nav-activity" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','推广活动','nav']);">推广活动<em class="nav-arrow"></em></a></li>
+            <li class="nav-li nav-experience-li" ><a href='/social' class="nav-a nav-experience" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','旅行印记','nav']);">旅行印记<em class="nav-arrow"></em></a></li>
+            <li class="nav-li fr nav-search-li"><a href="javascript:void(0);" class="nav-a nav-search"><span class="nav-search-btn">&nbsp;</span><em class="nav-arrow"></em></a></li>
+        </ul>            
+                    
+        <div id="" class="subnav-can subnav-about">
+            <div class="subnav-about-maininfo">
+            <h3>澳大利亚官方信息</h3>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                      <a href="/about/general-information" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','基本信息']);">基本信息</a>
+                  </td>
+                  <td>
+                      <a href="/about/customs-quarantine" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','海关检疫']);">海关检疫</a>
+                  </td>
+                  <td>
+                      <a href="/about/driving" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','自驾']);">自驾</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/about/general-information" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','基本信息']);">
+                      <img src="/sites/all/themes/australia/assets/css/images/subnav/ab-01.gif" alt="基本信息" title="基本信息"/>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="/about/customs-quarantine" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','海关检疫']);">
+                      <img src="/sites/all/themes/australia/assets/css/images/subnav/ab-02.gif" alt="海关检疫" title="海关检疫"/>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="/about/driving" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','自驾']);">
+                      <img src="/sites/all/themes/australia/assets/css/images/subnav/ab-03.gif" alt="自驾" title="自驾"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr class="subnav-about-tr-title">
+                  <td>
+                    <a href="/about/visa" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','签证']);">签证</a>
+                  </td>
+                  <td>
+                      <a href="/about/health-safety" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','服务及健康安全']);">服务及健康安全</a>
+                  </td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/about/visa" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','签证']);">
+                      <img src="/sites/all/themes/australia/assets/css/images/subnav/ab-04.gif" alt="签证" title="签证"/>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="/about/health-safety" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚官方信息','服务及健康安全']);">
+                      <img src="/sites/all/themes/australia/assets/css/images/subnav/ab-06.gif" alt="服务及健康安全" title="服务及健康安全"/>
+                    </a>
+                  </td>
+                  <td>&nbsp;</td>
+                </tr>
+          </table>
+        </div>
+        <div class="subnav-about-history">
+          <h3>澳大利亚独特之处</h3>
+          <ul>
+            <li>
+              <a href="/about/plants-animals" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚独特之处','澳大利亚的动植物']);">澳大利亚的动植物</a>
+            </li>
+            <li>
+              <a href="/about/history" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚独特之处','澳大利亚历史']);">澳大利亚历史</a>
+            </li>
+            <li>
+              <a href="/about/culture" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚独特之处','澳大利亚文化']);">澳大利亚文化</a>
+            </li>
+            <li>
+              <a href="/about/art" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚独特之处','澳大利亚艺术']);">澳大利亚艺术</a>
+            </li>
+            <li>
+              <a href="/about/aboriginal" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚独特之处','澳大利亚原住民']);">澳大利亚原住民</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-about-nature">
+          <h3>澳大利亚自然地貌</h3>
+          <ul>
+            <li>
+              <a href="/about/cities" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','城市']);">城市</a>
+            </li>
+            <li>
+              <a href="/about/coast" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','海岸']);">海岸</a>
+            </li>
+            <li>
+              <a href="/about/outback" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','内陆']);">内陆</a>
+            </li>
+            <li>
+              <a href="/about/nature" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','自然风光']);">自然风光</a>
+            </li>
+            <li>
+              <a href="/about/wine" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','葡萄酒产区']);">葡萄酒产区</a>
+            </li>
+            <li>
+              <a href="/about/islands" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','岛屿']);">岛屿</a>
+            </li>
+            <li>
+              <a href="/about/beach" onclick="_hmt.push(['_trackEvent','关于澳大利亚','澳大利亚自然地貌','海滩']);">海滩</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="" class="subnav-can subnav-destination">
+        <div class="subnav-destination-state">
+          <h3>州和领地</h3>
+          <ul>
+            <li>
+              <a href="/destination/new-south-wales" onclick="_hmt.push(['_trackEvent','目的地','州和领地','新南威尔士']);">新南威尔士</a>
+            </li>
+            <li>
+              <a href="/destination/victoria" onclick="_hmt.push(['_trackEvent','目的地','州和领地','维多利亚']);">维多利亚</a>
+            </li>
+            <li>
+              <a href="/destination/queensland" onclick="_hmt.push(['_trackEvent','目的地','州和领地','昆士兰']);">昆士兰</a>
+            </li>
+            <li>
+              <a href="/destination/northern-territory" onclick="_hmt.push(['_trackEvent','目的地','州和领地','北领地']);">北领地</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/destination/western-australia" onclick="_hmt.push(['_trackEvent','目的地','州和领地','西澳大利亚']);">西澳大利亚</a>
+            </li>
+            <li>
+              <a href="/destination/south-australia" onclick="_hmt.push(['_trackEvent','目的地','州和领地','南澳大利亚']);">南澳大利亚</a>
+            </li>
+            <li>
+              <a href="/destination/tasmania" onclick="_hmt.push(['_trackEvent','目的地','州和领地','塔斯马尼亚']);">塔斯马尼亚</a>
+            </li>
+            <li>
+              <a href="/destination/canberra" onclick="_hmt.push(['_trackEvent','目的地','州和领地','澳大利亚首都领地']);">澳大利亚首都领地</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-destination-city">
+          <h3>城市</h3>
+          <ul>
+            <li>
+              <a href="/destination/new-south-wales/sydney" onclick="_hmt.push(['_trackEvent','目的地','城市','悉尼']);">悉尼</a>
+            </li>
+            <li>
+              <a href="/destination/victoria/melbourne" onclick="_hmt.push(['_trackEvent','目的地','城市','墨尔本']);">墨尔本</a>
+            </li>
+            <li>
+              <a href="/destination/queensland/brisbane" onclick="_hmt.push(['_trackEvent','目的地','城市','布里斯班']);">布里斯班</a>
+            </li>
+            <li>
+              <a href="/destination/northern-territory/darwin" onclick="_hmt.push(['_trackEvent','目的地','城市','达尔文']);">达尔文</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/destination/western-australia/perth" onclick="_hmt.push(['_trackEvent','目的地','城市','珀斯']);">珀斯</a>
+            </li>
+            <li>
+              <a href="/destination/south-australia/adelaide" onclick="_hmt.push(['_trackEvent','目的地','城市','阿德莱德']);">阿德莱德</a>
+            </li>
+            <li>
+              <a href="/destination/tasmania/hobart" onclick="_hmt.push(['_trackEvent','目的地','城市','荷伯特']);">荷伯特</a>
+            </li>
+            <li>
+              <a href="/destination/canberra" onclick="_hmt.push(['_trackEvent','目的地','城市','堪培拉']);">堪培拉</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/destination/queensland/cairns" onclick="_hmt.push(['_trackEvent','目的地','城市','凯恩斯']);">凯恩斯</a>
+            </li>
+            <li>
+              <a href="/destination/queensland/gold-coast" onclick="_hmt.push(['_trackEvent','目的地','城市','黄金海岸']);">黄金海岸</a>
+            </li> 
+            <li>
+              <a href="/destination/northern-territory/alice-springs" onclick="_hmt.push(['_trackEvent','目的地','城市','爱丽丝泉']);">爱丽丝泉</a>
+            </li>                           
+          </ul>
+        </div>
+      </div>
+      <div id="" class="subnav-can subnav-explore">
+        <div class="subnav-explore-7d">
+          <h3>七大尽是不同</h3>
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <a href="/explore/coast" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','海岸之旅']);">海岸之旅</a>
+              </td>
+              <td>
+                <a href="/explore/city-life" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','都市生活']);">都市生活</a>
+              </td>
+              <td>
+                <a href="/explore/nature" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','自然奇景']);">自然奇景</a>
+              </td>
+              <td>
+                <a href="/explore/food-wine" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','美食佳酿']);">美食佳酿</a>
+              </td>
+            </tr>
+            <tr>                      
+              <td>
+                <a href="/explore/coast" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','海岸之旅']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-02.jpg" alt="海岸之旅" title="海岸之旅"/>
+                </a>
+              </td>
+              <td>
+                <a href="/explore/city-life" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','都市生活']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-03.jpg" alt="都市生活" title="都市生活"/>
+                </a>
+              </td>
+              <td>
+                <a href="/explore/nature" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','自然奇景']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-04.jpg" alt="自然奇景" title="自然奇景"/>
+                </a>
+              </td>
+              <td>
+                <a href="/explore/food-wine" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','美食佳酿']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-05.jpg" alt="美食佳酿" title="美食佳酿"/>
+                </a>
+              </td>
+            </tr>
+            <tr class="subnav-explore7d-tr-title">
+              <td>
+                <a href="/explore/iconic" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','非凡体验']);">非凡体验</a>
+              </td>
+              <td>
+                <a href="/explore/self-exploration" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','自在旅程']);">自在旅程</a>
+              </td>
+              <td>
+                <a href="/explore/luxury" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','格调之旅']);">格调之旅</a>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="/explore/iconic" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','非凡体验']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-01.jpg" alt="非凡体验" title="非凡体验"/>
+                </a>
+              </td>
+              <td>
+                <a href="/explore/self-exploration" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','自在旅程']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-06.jpg" alt="自在旅程" title="自在旅程"/>
+                </a>
+              </td>
+              <td>
+                <a href="/explore/luxury" onclick="_hmt.push(['_trackEvent','探索之旅','七大尽是不同','格调之旅']);">
+                  <img src="/sites/all/themes/australia/assets/css/images/subnav/exp-07.jpg" alt="格调之旅" title="格调之旅"/>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>  
+        <div class="subnav-explore-scenic">
+          <h3>标志性景点</h3>
+          <ul>
+            <li>
+              <a href="/explore/great-barrier-reef" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','大堡礁']);">大堡礁</a>
+            </li>
+            <li>
+              <a href="/explore/red-centre" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','红土中心地区']);">红土中心地区</a>
+            </li>
+            <li>
+              <a href="/explore/great-ocean-road" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','大洋路']);">大洋路</a>
+            </li>
+            <li>
+              <a href="/explore/kakadu-national-park" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','卡卡杜']);">卡卡杜</a>
+            </li>
+            <li>
+              <a href="/explore/kimberley" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','金伯利']);">金伯利</a>
+            </li>
+            <li>
+              <a href="/explore/kangaroo-island" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','袋鼠岛']);">袋鼠岛</a>
+            </li>
+            <li>
+              <a href="/explore/byron-bay" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','拜伦湾']);">拜伦湾</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/explore/tasmania/national-parks" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','塔斯马尼亚国家公园']);">塔斯马尼亚国家公园</a>
+            </li>
+            <li>
+              <a href="/explore/ningaloo-reef" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','宁格鲁礁']);">宁格鲁礁</a>
+            </li>
+            <li>
+              <a href="/explore/fraser-island" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','费沙岛']);">费沙岛</a>
+            </li>
+            <li>
+              <a href="/explore/blue-mountains" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','蓝山']);">蓝山</a>
+            </li>
+            <li>
+              <a href="/explore/Namadgi-National-Park" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','纳玛吉国家公园']);">纳玛吉国家公园</a>
+            </li>
+            <li>
+              <a href="/explore/freycinet-national-park" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','菲欣纳']);">菲欣纳</a>
+            </li>
+            <li>
+              <a href="/explore/sydney/darling-habour" onclick="_hmt.push(['_trackEvent','探索之旅','标志性景点','悉尼海港']);">悉尼海港</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-explore-activity">
+          <h3>活动盛事</h3>
+          <ul>
+            <li>
+              <a href="/calendar" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','活动盛事日历表']);">活动盛事日历表</a>
+            </li>
+            <li>
+              <a href="/explore/major-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','主要活动']);">主要活动</a>
+            </li>
+            <li>
+              <a href="/explore/sporting-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','体育赛事']);">体育赛事</a>
+            </li>
+            <li>
+              <a href="/explore/beach-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','沙滩活动']);">沙滩活动</a>
+            </li>
+            <li>
+              <a href="/explore/cultural-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','文化活动']);">文化活动</a>
+            </li>
+            <li>
+              <a href="/explore/art-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','艺术活动']);">艺术活动</a>
+            </li>
+            <li>
+              <a href="/explore/music-festivals" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','音乐节']);">音乐节</a>
+            </li>
+            <li>
+              <a href="/explore/food-wine-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','美食美酒活动']);">美食美酒活动</a>
+            </li>
+            <li>
+              <a href="/explore/natural-events" onclick="_hmt.push(['_trackEvent','探索之旅','活动盛事','季节性的自然景观']);">季节性的自然景观</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="subnav-can subnav-plan">
+        <div class="subnav-plan-prepare">
+          <h3>前往澳大利亚</h3>
+          <ul>
+            <li>
+              <a href="/plan/planning-a-trip" onclick="_hmt.push(['_trackEvent','计划行程','前往澳大利亚','计划前往澳大利亚']);">计划前往澳大利亚</a>
+            </li>
+            <li>
+              <a href="/plan/getting-around" onclick="_hmt.push(['_trackEvent','计划行程','前往澳大利亚','在澳大利亚境内游览']);">在澳大利亚境内游览</a>
+            </li>
+            <li>
+              <a href="/plan/visa" onclick="_hmt.push(['_trackEvent','计划行程','前往澳大利亚','签证信息']);">签证信息</a>
+            </li>
+            <li>
+              <a href="/plan/tips" onclick="_hmt.push(['_trackEvent','计划行程','前往澳大利亚','实用信息']);">实用信息</a>
+            </li> 
+            <!--<li>
+              <a href="/plan/holidays">2013澳大利亚节假日</a>
+            </li>-->
+            <li>
+              <a href="/plan/tips-hazards" onclick="_hmt.push(['_trackEvent','计划行程','前往澳大利亚','澳大利亚旅游贴士']);">澳大利亚旅游贴士</a>
+            </li>
+            <li>
+              <a href="/plan/embassy" onclick="_hmt.push(['_trackEvent','计划行程','前往澳大利亚','中国驻澳大利亚大使馆及总领事馆']);">中国驻澳大利亚大使馆及总领事馆</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-plan-journey">
+          <h3>查找旅游讯息</h3>
+          <ul>
+            <li>
+              <a href="/plan/kdp" onclick="_hmt.push(['_trackEvent','计划行程','查找旅游讯息','澳大利亚优选合作伙伴']);">澳大利亚优选合作伙伴</a>
+            </li>
+            <li>
+              <a href="/plan/accommodation" onclick="_hmt.push(['_trackEvent','计划行程','查找旅游讯息','住宿']);">住宿</a>
+            </li>
+            <li>
+              <a href="/plan/tours" onclick="_hmt.push(['_trackEvent','计划行程','查找旅游讯息','当地旅行团']);">当地旅行团</a>
+            </li>
+            <li>
+              <a href="/plan/attractions" onclick="_hmt.push(['_trackEvent','计划行程','查找旅游讯息','景点']);">景点</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-plan-notice">
+           <h3>推荐线路</h3>
+           <ul>
+             <li>
+               <a href="/plan/family-tour" onclick="_hmt.push(['_trackEvent','计划行程','推荐线路','家庭乐']);">家庭乐</a>
+             </li>
+             <li>
+               <a href="/plan/romantic-tour" onclick="_hmt.push(['_trackEvent','计划行程','推荐线路','浪漫游']);">浪漫游</a>
+             </li>
+             <li>
+               <a href="/plan/sisterhood-tour" onclick="_hmt.push(['_trackEvent','计划行程','推荐线路','姐妹淘']);">姐妹淘</a>
+             </li>
+             <li>
+               <a href="/plan/culture-exploration" onclick="_hmt.push(['_trackEvent','计划行程','推荐线路','文化探索']);">文化探索</a>
+             </li>
+             <li>
+               <a href="/plan/funster-trip" onclick="_hmt.push(['_trackEvent','计划行程','推荐线路','爱玩一族']);">爱玩一族</a>
+             </li>
+             <li>
+               <a href="/plan/soft-adventure" onclick="_hmt.push(['_trackEvent','计划行程','推荐线路','动感之旅']);">动感之旅</a>
+             </li>
+           </ul>
+        </div>
+        <div class="subnav-plan-tool">
+          <h3>我的行程清单</h3>
+            <ul>
+              <li>
+                <a href="/tools" onclick="_hmt.push(['_trackEvent','计划行程','我的行程清单','我的行程清单']);">
+                <img src="/sites/all/themes/australia/assets/css/images/subnav/plan-01.jpg" alt="定制专属您的行程计划" title="定制专属您的行程计划"></a>
+              </li>
+            </ul>
+        </div>
+        <div class="subnav-plan-activity">
+          <h3>商务会展</h3>
+            <ul>
+              <li>
+                <a href="http://www.businessevents.australia.cn/" target="_blank" onclick="_hmt.push(['_trackEvent','计划行程','商务会展','商务会展']);">
+                <img src="/sites/all/themes/australia/assets/css/images/subnav/plan-02.jpg" alt="开始您的商务会展" title="开始您的商务会展"></a>
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="subnav-can subnav-activity">
+        <div class="subnav-activity-aaa">
+          <h3>"澳"世盛宴</h3>
+          <ul> 
+            <li>
+              <a href="http://restaurant.australia.cn/?f=nav_TA" target="_blank" onclick="_hmt.push(['_trackEvent','推广活动','澳世盛宴','澳世盛宴']);">
+                <img src="/sites/all/themes/australia/assets/css/images/subnav/activity-aoshi.jpg" alt='"澳"世盛宴' title='"澳"世盛宴'>
+              </a>
+            </li>
+          </ul> 
+        </div>
+        <div class="subnav-activity-latest">
+          <h3>澳大利亚优选合作伙伴</h3>
+          <ul> 
+            <li>
+              <a href="/plan/kdp" onclick="_hmt.push(['_trackEvent','推广活动','澳大利亚优选合作伙伴','澳大利亚优选合作伙伴']);">
+                <img src="/sites/all/themes/australia/assets/css/images/subnav/activity-01.jpg" alt="澳大利亚优选合作伙伴" title="澳大利亚优选合作伙伴">
+              </a>
+            </li>
+          </ul> 
+        </div>
+        <div class="subnav-activity-latest">
+          <h3>航空公司最新优惠</h3>
+          <ul>
+            <li>
+              <a href="/campaign/specialoffers" onclick="_hmt.push(['_trackEvent','推广活动','航空公司最新优惠','航空公司最新优惠']);">
+                <img src="/sites/all/themes/australia/assets/css/images/subnav/activity-02.jpg" alt="最新优惠" title="最新优惠">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="subnav-can subnav-experience">
+        <div class="subnav-experience-signature">
+          <h3>澳大利亚之友</h3>
+          <ul>
+            <li>
+              <a href="/social/friends-of-australia"  onclick="_hmt.push(['_trackEvent','旅行印记','澳大利亚之友','澳大利亚之友']);">
+              <img src="/sites/all/themes/australia/assets/css/images/subnav/experience-02.jpg" alt="澳大利亚之友" title="澳大利亚之友"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-experience-star">
+          <h3>网友旅行印记</h3>
+          <ul> 
+            <li>
+              <a href="/social/blog" onclick="_hmt.push(['_trackEvent','旅行印记','网友旅行印记','网友旅行印记']);">
+              <img src="/sites/all/themes/australia/assets/css/images/subnav/experience-01.jpg" alt="网友旅行印记" title="网友旅行印记"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="subnav-experience-weibo">
+          <h3>微博活动</h3>
+          <ul>
+            <li>
+              <a href="http://e.weibo.com/seeaustralia" target="_blank" onclick="_hmt.push(['_trackEvent','旅行印记','微博活动','微博活动']);">
+              <img src="/sites/all/themes/australia/assets/css/images/subnav/experience-03.jpg" alt="微博活动" title="微博活动"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="" class="subnav-can subnav-search clearfix">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="subnav-search-txt-wrap">
+              <input type="text" class="subnav-search-txt" onkeydown="enterSumbit()" id="text-btn" />
+            </td>
+            <td class="subnav-search-btn-wrap">
+              <input type="button" class="subnav-search-btn" onclick="dokeysearch();"/>
+            </td>
+            <td class="search-tag_l"></td>
+            <td class="search-tag_txt">
+              <p class="search-tag_txt-p">热门关键字搜索</p>
+              <ul>
+                <li>
+                    <a href="javascript:void(0);">海滩</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">国家公园</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">世界自然遗产</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">峡谷</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">原住民</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">文化遗产</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">珊瑚礁</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">都市生活</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">美食</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">购物</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">酒庄/葡萄园</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">海鲜</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                    <a href="javascript:void(0);">历史</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">文化</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">野生动物</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">考拉</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">袋鼠</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">海洋生物</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">滑雪</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">自驾游</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">热气球</a>
+                </li>
+                
+                <li>
+                    <a href="javascript:void(0);">潜水</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">浮潜</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">钓鱼</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                    <a href="javascript:void(0);">直升飞机</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">海上遨游</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">火车</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">自行车</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">自驾游</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">家庭</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">度假村</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">情侣</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">蜜月</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">浪漫</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">探险</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">体育盛事</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">活动</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">高尔夫</a>
+                </li>
+              </ul>
+            </td>
+            <td class="search-tag_r"></td>
+          </tr>
+        </table>
+      </div>
+    </nav>
+  </div>
+</div>
+</section>

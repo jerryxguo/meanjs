@@ -1,0 +1,332 @@
+/* pc */
+@media screen and (max-width: 58.75em) {
+	.subnav-explore-7d {
+		padding-right: 0;
+	}
+	.subnav-explore-7d td {
+		width: 90px;
+	}
+	.subnav-explore-scenic{
+		padding-left: 20px;
+	}
+	.subnav-explore ul{
+		margin-right: 20px;
+	}
+	.subnav-explore-activity{
+		padding-left: 20px;
+	}
+}
+
+/* pc */
+@media screen and (max-width: 53.75em) { /* 860px */
+	.site-header { 
+		height: 70px;
+	}
+	.site-logo img {
+		width: 120px;
+		height: 45px;
+	}
+	.site-name{
+		font-size: 1.1em;
+		margin-top: 12px;
+	}
+	.site-name span{
+		font-size: .8em;
+	}
+	.site-weather_hide{
+		display: none;
+	}
+	.site-weather{
+		position: absolute;
+		right: 0;
+		top: 62px;
+		height: 50px;
+	}
+	.weather-icon img{
+		width: 40px;
+		height: 35px;
+
+	}
+	.line-seprator{
+		padding: 0 5px;
+	}
+	.weather-deg {
+		font-size: 2.35em;
+	}
+	.weather-deg .deg-cel{
+		padding-right: 5px;
+	}
+	.weather-city {
+		font-size: .75em;
+		padding-top: 8px;
+		white-space: nowrap;
+	}
+	.site-nav {
+		height: 50px;
+	}
+	.mob_nav-menu,.mob_nav-login,.mob_nav-search-btn{
+		display: block;
+		width: 36px;
+		height: 36px;
+		background-image:url(../images/mobile/icon-nav.gif);
+		background-repeat: no-repeat;
+		background-size: 36px 216px;
+		margin: 7px 1.5% 0;
+		float: left;
+	}
+	.mob_nav-menu{
+		background-position: 0 0;
+	}
+	.mob_nav-menu:active{
+		background-position: 0 -108px;
+	}
+	.mob_nav-login{
+		background-position: 0 -36px;
+	}
+	.mob_nav-login:active{
+		background-position: 0 -144px;
+	}
+	.mob_nav-search-btn{
+		background-position:5px -72px;
+		float: right;
+		margin: 0;
+		padding-left: 10px;
+	}
+	.mob_nav-search-btn:active{
+		background-position:5px -180px;
+	}
+	.mob_nav-search-wrap{
+		display: none;
+		width: 65%;
+		height: 36px;
+		overflow: hidden;
+		float: right;
+		margin: 7px 1.5% 0;
+	}
+	.mob_nav-search-box{
+		display: block;
+		float: right;
+		width: 70%;
+		height: 36px;
+		padding:0 1%;
+		background-color: #6c6c6c;
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,.4) inset;
+		-moz-box-shadow: 0 0 6px rgba(0,0,0,.4) inset;
+		box-shadow: 0 0 6px rgba(0,0,0,.4) inset;
+		color: #fff;
+		font-size: 1em;
+		font-family:  'helvetica neue', 'microsoft yahei',"å¾®è½¯é›…é»‘","SimHei","é»‘ä½“",sans-serif; /* ä¸ºäº†å…¼å®¹OperaåŠ äº†â€œå¾®è½¯é›…é»‘â€ */
+		outline: none;
+		-webkit-appearance: none;
+	}
+	.mob_nav-ul{
+		display: none;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	} 
+	.mob_nav-ul li {
+		border-bottom: 1px solid #b3b3b3;
+	}
+	.mob_nav-ul li a{
+		display: block;
+		width: 100%;
+		line-height: 2.6em;
+		color: #8a8a8a;
+		background-color: #f3f3f3;
+		letter-spacing: .15em;
+		border-top: 1px solid #e0e0e0;
+	}
+	.mob_nav-ul li a:active{
+		background-color: #1ab7ea;
+		color: #fff;
+	}
+	.mob_nav-ul li a:hover{
+		background-color: #1ab7ea;
+		color: #fff;
+	}
+
+
+	.mob_user-ul{
+		display: none;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	} 
+	.mob_user-ul li {
+		border-bottom: 1px solid #b3b3b3;
+	}
+	.mob_user-ul li a{
+		display: block;
+		width: 100%;
+		line-height: 2.6em;
+		color: #8a8a8a;
+		background-color: #f3f3f3;
+		letter-spacing: .15em;
+		border-top: 1px solid #e0e0e0;
+	}
+	.mob_user-ul li a:active{
+		background-color: #1ab7ea;
+		color: #fff;
+	}
+	.mob_user-ul li a:hover{
+		background-color: #1ab7ea;
+		color: #fff;
+	}
+
+	.site-subscribe {
+		position: static;
+	}
+	.site-info ul{
+		width: 100%;
+	}
+
+
+	.siteDialog-playVideo {
+		width: 620px;
+		height: 348px;
+		margin-left: -310px;
+	}
+
+	/*for mobile hide <860*/
+	.nav-ul,.subnav-can{
+		display: none;
+	}
+	.site-channel{
+		display: none;
+	}
+
+	/*for mobile active show hide interaction <860*/
+
+	.mob_nav-menu_active{
+		background-position: 0 -108px;
+	}
+	.mob_nav-login_active{
+		background-position: 0 -144px;
+	}
+	.mob_nav-search-btn_active{
+		background-position:5px -180px;
+	}
+	.mob_nav-search-wrap_show{
+		display: block;
+	}
+	.mob_nav-ul_show{
+		display: block;
+	}
+	.mob_user-ul_show{
+		display: block;
+	}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2) {
+	.mob_nav-menu,.mob_nav-login,.mob_nav-search-btn{
+		background-image:url(images/mobile/icon-nav@2x.gif);
+	}
+	.dest-1000wap-right-margin-top .dest-1000wap-right-listing li{
+		background-image:url(images/dest/plan-butt.png);
+		background-size:28px 28px;
+	}
+}
+
+@media screen and (max-width: 40em){ /* 640px */
+	.site-sider{
+		display: none;
+	}
+
+	.siteDialog-playVideo {
+		width: 460px;
+		height: 258px;
+		margin-left: -230px;
+	}
+}
+
+@media screen and (max-width: 30em) {
+	.site-dialog{
+		width: 300px;
+		margin-left: -150px;
+	}
+	.site-dialog-cont{
+		padding: 10px 20px;
+	}
+	#site-dialog-register-lastname {
+		margin-right: 1.2%;
+	}
+	#site-dialog-register-securitycode {
+		width: 60%;
+	}
+	.siteDialog-playVideo {
+		width: 340px;
+		height: 190px;
+		margin-left: -170px;
+	}
+	.siteDialog-register .site-dialog-cont{
+		height: 250px;
+		overflow-y: scroll;
+	}
+	.home-la-3-cont .btn-readmore_alpha{
+		display:none;
+		}
+	.btn-readmore_alpha-wu{
+		display: block;
+		cursor: pointer;
+		font-size: 1em;
+		text-align: center;
+		width: 6.5em;
+		line-height: 1.75;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		letter-spacing: .125em;
+		opacity: 0.85;
+		-webkit-transition: opacity .5s;
+		-moz-transition: opacity .5s;
+		-ms-transition: opacity .5s;
+		-o-transition: opacity .5s;
+		transition: opacity .5s;
+		background-color:rgba(44,146,204,.9);
+	}
+	.btn-readmore_alpha-tnla{
+		display: block;
+		cursor: pointer;
+		font-size: 1em;
+		text-align: center;
+		width: 6.5em;
+		line-height: 1.75;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		letter-spacing: .125em;
+		opacity: 0.85;
+		-webkit-transition: opacity .5s;
+		-moz-transition: opacity .5s;
+		-ms-transition: opacity .5s;
+		-o-transition: opacity .5s;
+		transition: opacity .5s;
+		background-color:#f8a543;
+	}
+}
+
+@media screen and (max-width: 22.5em) {
+	.site-logo{
+		margin-top: 15px;
+	}
+	.site-logo img {
+		width: 110px;
+		height: 40px;
+	}
+	.site-name{
+		font-size: 0.95em;
+		margin-top: 18px;
+	}
+
+	.siteDialog-playVideo {
+		width: 300px;
+		height: 167px;
+		margin-left: -150px;
+	}
+}
