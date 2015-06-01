@@ -1,57 +1,63 @@
-<section data-ng-controller="HomeController">
-<div>
+<section data-ng-controller="MenuController">
+<div class="container">
     <table class="table">
+        <thead>
         <tr>
-            <th>Menu
-            </th>
-            <th>CSS
-            </th>
-            <th>Action
-            </th>
+            <th>title</th>
+            <th>CSS class</th>
+            <th>Link</th>
+            <th>Position</th>
+            <th>Action</th>
         </tr>
-        <tr ng-repeat="menu in menus">
-            <td>{{menu.caption}}
-            </td>
-            <td>{{menu.CSS}}
-            </td>            
+        </thead>
+        <tbody>
+        <tr data-ng-repeat="menu in topMenus" >
+            <td>{{menu.title}}</td>
+            <td>{{menu.class}}</td>
+            <td>{{menu.link}}</td>
+            <td>{{menu.position}}</td> 
             <td>
-            <input type="button" value="Remove" class="btn btn-primary" ng-click="removeRow(menu.caption)"/>
+            <input type="button" value="Remove" class="btn btn-default" ng-click="removeMenu(menu)"/>
             </td>
         </tr>
+        </tbody>
+        
     </table>
-
-    <form ng-submit="addRow()">
-        <input type="text" placeholder="Meetup name" ng-model="meetupName">
-        <button type="submit">Add</button>
+</div>
+<div class="container">   
+    <form class="form-horizontal" ng-submit="createMenu()">
+        <fieldset>
+            <div class="form-group">
+                <label class="control-label" for=" title" >Name</label>
+                <div class="controls">
+                    <input name="title" type="text" class="form-control" ng-model="title" placeholder="Title"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label ">CSS</label>
+                <div class="controls">
+                    <input type="text" class="form-control" name="css" placeholder="css"  ng-model="css" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label ">link</label>
+                <div class="controls">
+                    <input type="text" class="form-control" name="link" placeholder="link"  ng-model="link" />
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label ">Position</label>
+                <div class="controls">
+                    <input type="number" class="form-control" name="position" placeholder="position"  ng-model="position" />
+                </div>
+            </div>
+            <div class="form-group">								
+                <div style="padding-left:110px">
+                    <input type="submit" value="Submit" class="btn btn-default"/>
+                </div>
+            </div>
+        </fieldset>
     </form>
-    <form class="form-horizontal" role="form" ng-submit="addRow()">
-							<div class="form-group">
-								<label class="col-md-2 control-label">Name</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" name="name"
-										ng-model="name" />
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-md-2 control-label">Employees</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" name="employees"
-										ng-model="employees" />
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-md-2 control-label">Headoffice</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" name="headoffice"
-										ng-model="headoffice" />
-								</div>
-							</div>
-							<div class="form-group">								
-								<div style="padding-left:110px">
-									<input type="submit" value="Submit" class="btn btn-primary"/>
-								</div>
-							</div>
-						</form>
 
 </div>
 </section>

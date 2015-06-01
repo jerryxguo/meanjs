@@ -7,20 +7,23 @@ var mongoose = require('mongoose'),
 	Schema = mongoose.Schema;
 
 var MenuSchema = new Schema({
-	created: {
-		type: Date,
-		default: Date.now
-	},
-	caption: {
+	
+	title: {
 		type: String,
-		default: '',
 		trim: true,
-		required: 'Title cannot be blank'
+		required: true
 	},
-	css: {
+	link: {
 		type: String,
-		default: '',
+		trim: true,		
+	},
+	class: {
+		type: String,		
 		trim: true
+	},
+	position: {
+		type: Number,
+		default: 0,		
 	},
 	user: {
 		type: Schema.ObjectId,
@@ -29,4 +32,31 @@ var MenuSchema = new Schema({
 });
 
 mongoose.model('Menu', MenuSchema);
+
+var ItemSchema = new Schema({
+	
+	title: {
+		type: String,
+		trim: true,
+		required: true
+	},
+	link: {
+		type: String,
+		trim: true,		
+	},
+	class: {
+		type: String,		
+		trim: true
+	},
+	position: {
+		type: Number,
+		default: 0,		
+	},
+	menu: {
+		type: Schema.ObjectId,
+		ref: 'Menu'
+	}
+});
+
+mongoose.model('Item', ItemSchema);
 

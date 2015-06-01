@@ -1,19 +1,15 @@
-<section data-ng-controller="HomeController">
+<section data-ng-controller="MenuController">
 <div>
 <div>
      <nav class="site-nav clearfix" ng-mouseover="hoverControl()">      
      
         <ul class="nav-ul" >
-            <li class="nav-li nav-home-li" ng-repeat="x	in menus">
-                <a href='/' class="nav-a {{x.css}}" style="z-index: 90;" >{{x.caption}}<em class="nav-arrow"></em></a>            
-            </li>
             <li class="nav-li nav-home-li" ><a href='/' class="nav-a nav-home" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','首页','nav']);">首页</a></li>
-            <li class="nav-li nav-home-li" ><a href='/about' class="nav-a nav-about" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','关于澳大利亚','nav']);">关于澳大利亚<em class="nav-arrow"></em></a></li>
-            <li class="nav-li nav-home-li" ><a href='/destination' class="nav-a nav-destination" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','目的地','nav']);">目的地<em class="nav-arrow"></em></a></li>
-            <li class="nav-li nav-home-li" ><a href='/explore' class="nav-a nav-explore" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','探索之旅','nav']);">探索之旅<em class="nav-arrow"></em></a></li>
-            <li class="nav-li nav-home-li" ><a href='/plan' class="nav-a nav-plan" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','计划行程','nav']);">计划行程<em class="nav-arrow"></em></a></li>
-            <li class="nav-li nav-home-li" ><a href='/campaigns' class="nav-a nav-activity" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','推广活动','nav']);">推广活动<em class="nav-arrow"></em></a></li>
-            <li class="nav-li nav-experience-li" ><a href='/social' class="nav-a nav-experience" style="z-index: 90;" onclick="_hmt.push(['_trackEvent','旅行印记','nav']);">旅行印记<em class="nav-arrow"></em></a></li>
+            <li class="nav-li nav-home-li" ng-repeat="x	in topMenus">
+                <a href="{{x.link}}" class="nav-a {{x.class}}" style="z-index: 90;" >{{x.title}}<em class="nav-arrow"></em></a>            
+            </li>
+            
+          
             <li class="nav-li fr nav-search-li"><a href="javascript:void(0);" class="nav-a nav-search"><span class="nav-search-btn">&nbsp;</span><em class="nav-arrow"></em></a></li>
         </ul>            
                     
