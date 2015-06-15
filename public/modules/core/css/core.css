@@ -72,7 +72,6 @@ a:focus {
 .footerBucketContent {
 	width:400px;
 	float:left;
-	margin-right: 30px;
 }
 
 .footerBucketContent + .footerBucketContent {
