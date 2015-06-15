@@ -26,7 +26,7 @@ a:focus {
 }
 
 .over-text{
-	position: absolute;
+	position: relative;
 	top: 150px; 
 	left: 80px;
 }
