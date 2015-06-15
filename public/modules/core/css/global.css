@@ -192,7 +192,7 @@ body {
 	padding-top: 10px;
 }
 .site-nav {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	z-index: 999;
 	background: -webkit-linear-gradient(top, #323232 0%, #404040 10%, #404040 90%, #323232 100%);

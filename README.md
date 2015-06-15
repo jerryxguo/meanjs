@@ -5,7 +5,7 @@ A travel website built based on MEAN.JS which is a full-stack JavaScript open-so
 ## Prerequisites
 * Node.js - [Download & Install Node.js](http://www.nodejs.org/download/) and the npm package manager. 
 * MongoDB - [Download & Install MongoDB](http://www.mongodb.org/downloads), and make sure it's running on the default port (27017).
-* Bower - You're going to use the [Bower Package Manager](http://bower.io/) to manage your front-end packages. Make sure Node.js and npm are installed first, then install bower globally using npm:
+* Bower -   [Bower Package Manager](http://bower.io/) to manage the front-end packages. Make sure Node.js and npm are installed first.
 
 ```bash
 $ npm install -g bower
