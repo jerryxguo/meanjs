@@ -13,14 +13,14 @@ module.exports = function(app) {
 		.delete(core.menuDelete);
 
 	//item routing
-	app.route('/items')
+	app.route('/items/:menuId')
 		.get(core.itemList)
 		.post(core.itemCreate);
 
 	app.route('/items/:itemId')		
 		.delete(core.itemDelete);
-	// Finish by binding the article middleware
-	// Finish by binding the article middleware
+
+	// Finish by binding the  middleware	
 	app.param('menuId', core.menuByID);
 	app.param('itemId', core.itemByID);
 		

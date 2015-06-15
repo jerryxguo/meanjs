@@ -18,3 +18,140 @@ body.ng-cloak
 {
 	display: block;
 }
+a:hover,
+a:focus {
+ /*remove bootstrap effect */
+ 	color: #fff ;
+  	text-decoration: none; 
+}
+
+.over-text{
+	position: absolute;
+	top: 150px; 
+	left: 80px;
+}
+
+.contentAndCommentsHolder{
+	width:100% !important;
+}
+
+.mainContent {
+	position: relative;
+    top:  0; 
+    left: 0; 
+	width:100%;
+}
+
+.blankBody {
+	background:white;
+}
+
+
+
+/* ################ */
+/*   style   */
+/* ################ */
+.footerBg {
+	
+	width:100%;
+	margin:280px auto 0 auto;
+	position:absolute;
+	z-index:1;
+	height:auto;
+	clear:both;
+}
+
+.footer {
+	width:940px;
+	height:auto;
+	margin:30px auto;
+	overflow:hidden;
+	font-weight:normal;
+}
+
+.footerBucketContent {
+	width:400px;
+	float:left;
+	margin-right: 30px;
+}
+
+.footerBucketContent + .footerBucketContent {
+	padding:0 10px;
+}
+
+.footer2 {
+	width:940px;
+	margin:35px auto;
+	font-size:12px;
+	overflow:hidden;
+}
+
+.copyRight1 {
+	float:left;
+}
+
+.copyRight2 {
+	float:right;
+}
+
+.aboutSocialFooter{
+	padding:1px;
+	margin:20px 0 8px;
+}
+
+.aboutSocialFooter a {
+	font-family: 'JustVector';
+	padding:8px;
+	font-size: 18px;
+	border-radius:1px;
+}
+
+
+
+
+/* ################ */
+/*   Footer Rules reskin  */
+/* ################ */
+
+.footerBg {
+	background:#f8f8f8 bottom center;
+	border-top: solid #fff 1px;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.footer {
+	color:#565656;
+}
+
+.footerBucketContent h3 {
+	color:#2861a1;
+}
+
+
+.bold {
+	color:#565656;
+}
+
+.footer2 {
+	color:#565656;
+}
+
+.copyRight2 a:active,
+.copyRight2 a:visited,
+.copyRight2 a {
+	color:#2861a1;
+}
+
+.aboutSocialFooter a {
+	color:#c6c6c6;
+	border:1px #dbdbdb solid;
+	background:#f8f8f8;
+}
+
+.aboutSocialFooter a:hover {
+	color:#fff;
+	background:#c6c6c6;
+}
+
+
+

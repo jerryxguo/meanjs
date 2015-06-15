@@ -1,13 +1,14 @@
 'use strict';
 
 
-angular.module('core').controller('HomeController', ['$scope', '$resource','Authentication',
-	function($scope,$resource, Authentication) {
+angular.module('core').controller('HomeController', ['$scope', '$element',
+	function($scope,$element) {
 		
 		// This provides Authentication context.
-		$scope.authentication = Authentication;
-		$scope.hoverControl = function(){
-			//console.log("hoverControl"+ $element.html());
+		
+		$scope.hoverControl = function(hover){
+			console.log("hoverControl"+ $element.css());
+			//addClass()
 		};
 		
                     

@@ -96,7 +96,7 @@ exports.menuByID = function(req, res, next, id) {
  */
 exports.itemCreate = function(req, res) {
 	var item = new Item(req.body);
-	
+	item.menu = req.menu;
 	item.save(function(err) {
 		if (err) {
 			return res.status(400).send({
@@ -131,7 +131,8 @@ exports.itemDelete = function(req, res) {
  * List of item
  */
 exports.itemList = function(req, res) {
-	Item.find({ menu: req.menu}).sort('-position').exec(function(err, item) {
+	
+	Item.find({ menu: req.menu}).sort('position').exec(function(err, item) {
 		if (err) {
 			return res.status(400).send({
 				message: errorHandler.getErrorMessage(err)

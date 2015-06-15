@@ -21,9 +21,21 @@ var MenuSchema = new Schema({
 		type: String,		
 		trim: true
 	},
+	highlightClass: {
+		type: String,		
+		trim: true
+	},
+	subClass: {
+		type: String,		
+		trim: true
+	},
 	position: {
 		type: Number,
 		default: 0,		
+	},
+	hasChild: {
+		type: Boolean,
+		default: false,		
 	},
 	user: {
 		type: Schema.ObjectId,
@@ -45,6 +57,10 @@ var ItemSchema = new Schema({
 		trim: true,		
 	},
 	class: {
+		type: String,		
+		trim: true
+	},
+	highlightClass: {
 		type: String,		
 		trim: true
 	},
