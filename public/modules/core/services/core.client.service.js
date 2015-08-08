@@ -30,7 +30,7 @@ angular.module('core').factory('services', function(){
 	    newArr.push(arr.slice(i, i+size));
 	  }
 	  return newArr;
-	}
+	};
 
 
 	return service;
