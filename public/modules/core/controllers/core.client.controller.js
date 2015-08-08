@@ -32,7 +32,7 @@ angular.module('core').controller('MenuController', ['$scope', '$timeout', '$ani
 	    function nextSlide() {
 	        $scope.currentIndex = ($scope.currentIndex < $scope.slides.length - 1) ? ++$scope.currentIndex : 0;
 	        $timeout(nextSlide, $scope.interval);
-	    };
+	    }
 
 	    $scope.loadSlides = function (interval) {
 			console.log("loadSlides="+ interval);
@@ -148,5 +148,6 @@ angular.module('core').animation('.fadde', [function() {
 	  console.log("animation");
       jQuery(element).slideIn(1000, doneFn);
     }
-  }
+  };
+  
 }]);
